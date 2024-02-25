@@ -7,8 +7,13 @@ public class Jogador {
 
     private final int maxVidas = 3;
 
+    // static -> consigo acessar sem instanciar um objeto
+    static boolean alerta = false;
+
     private int num;
     private int vidas = 0;
+
+    static int pontosJogadores = 0;
 
     public Jogador(int numeroJogador) {
         // this é uma referência para o próprio objeto
@@ -33,5 +38,15 @@ public class Jogador {
             this.vidas++;
         else
             System.out.println("Número de vidas máximo atingido!");
+    }
+
+    public static void pontos() {
+        pontosJogadores += 10;
+    }
+
+    public void info() {
+        System.out.printf("Jogador número %d tem %d vidas%n", this.num, this.vidas);
+        System.out.printf("Alerta: %s%n", alerta ? "sim" : "não");
+        System.out.printf("Pontos: %d%n", pontosJogadores);
     }
 }
