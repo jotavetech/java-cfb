@@ -5,13 +5,33 @@ public class Jogador {
 
     // método construtor, precisa ter o mesmo nome da classe
 
+    private final int maxVidas = 3;
+
     private int num;
-    public int vidas = 0;
+    private int vidas = 0;
 
     public Jogador(int numeroJogador) {
         // this é uma referência para o próprio objeto
         this.num = numeroJogador;
+        this.vidas = 1;
         System.out.printf("%nJogador número %d criado!%n", num);
     }
 
+    public int getVidas() {
+        return this.vidas;
+    }
+
+    public void setVidas(int vidas) {
+        if(vidas > 0 && vidas <= maxVidas)
+            this.vidas = vidas;
+        else
+            System.out.println("Número de vidas inválido!");
+    }
+
+    public void addVidas() {
+        if(this.vidas < maxVidas)
+            this.vidas++;
+        else
+            System.out.println("Número de vidas máximo atingido!");
+    }
 }

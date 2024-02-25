@@ -9,9 +9,11 @@ public class Main {
         Jogador j2 = new Jogador(num++);
         Jogador j3 = new Jogador(num++);
 
-        j3.vidas = 100;
+        j3.addVidas();
+        j3.addVidas();
 
-        System.out.println(j3.vidas);
+        System.out.println(j3.getVidas());
+
 
 
     }
