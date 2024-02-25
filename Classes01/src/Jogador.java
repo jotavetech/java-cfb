@@ -5,10 +5,13 @@ public class Jogador {
 
     // método construtor, precisa ter o mesmo nome da classe
 
-    public int num = 1;
+    private int num;
+    public int vidas = 0;
 
     public Jogador(int numeroJogador) {
-        System.out.printf("%nJogador número %d criado!%n", numeroJogador);
+        // this é uma referência para o próprio objeto
+        this.num = numeroJogador;
+        System.out.printf("%nJogador número %d criado!%n", num);
     }
 
 }

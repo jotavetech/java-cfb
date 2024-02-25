@@ -2,12 +2,17 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
+        int num = 0;
+
         // Instanciando um objeto da classe Jogador
+        Jogador j1 = new Jogador(num++);
+        Jogador j2 = new Jogador(num++);
+        Jogador j3 = new Jogador(num++);
 
-        Jogador j1 = new Jogador(1);
-        Jogador j2 = new Jogador(2);
+        j3.vidas = 100;
 
-        System.out.println(j1.num);
+        System.out.println(j3.vidas);
+
 
     }
 }
