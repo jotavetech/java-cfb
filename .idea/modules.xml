@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array Class/Array Class.iml" filepath="$PROJECT_DIR$/Array Class/Array Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CFBCursos.iml" filepath="$PROJECT_DIR$/.idea/CFBCursos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes01/Classes01.iml" filepath="$PROJECT_DIR$/Classes01/Classes01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes02/Classes02.iml" filepath="$PROJECT_DIR$/Classes02/Classes02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrizes/Matrizes.iml" filepath="$PROJECT_DIR$/Matrizes/Matrizes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Metodos/Metodos.iml" filepath="$PROJECT_DIR$/Metodos/Metodos.iml" />
+    </modules>
+  </component>
+</project>
