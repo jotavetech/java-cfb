@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21982e6d-e469-44dc-8483-af6356cdca1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Array Class/Array Class.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/Arrays.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes01/Classes01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes02/Classes02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrizes/Matrizes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Metodos/Metodos.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="21982e6d-e469-44dc-8483-af6356cdca1f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2csmMz80PfblCStMqu7N6yIuAGu" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -30,7 +23,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/joao/Code/study/JAVA/CFBCursos/Classes02",
+    "last_opened_file_path": "/home/joao/Code/study/JAVA/CFBCursos",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -52,7 +45,11 @@
       <option name="presentableId" value="Default" />
       <updated>1708908617620</updated>
       <workItem from="1708908618634" duration="368000" />
+      <workItem from="1708909963549" duration="17000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
