@@ -1,4 +1,5 @@
-public class Animal implements SerVivo {
+// classes abstratas só podem ser herdadas, não instanciadas
+abstract class Animal implements SerVivo {
     public Animal() {
         System.out.println("Um animal foi criado");
     }
